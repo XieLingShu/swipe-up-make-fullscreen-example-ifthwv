@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.game-content {
+  position: fixed;
+  background: rgb(112, 219, 112); ; 
+  width: 100%;
+  height: 100vh;
+}
+
+.swipe-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200vh;
+  background: grey; 
+  color: white;
+  font-size: 24px;
+  display: none;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
